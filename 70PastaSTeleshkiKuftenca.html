@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кулинарна Книга</title>
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <button class="menu-button" onclick="toggleMenu()">☰</button>
+        <ul class="nav-links">
+            <li><a href="Main.html">Начало</a></li>
+            <li><a href="Recipes.html">Рецепти</a></li>
+            <li><a href="#about">За нас</a></li>
+            <li><a href="#contact">Контакт</a></li>
+        </ul>
+    </nav>
+    
+    <div class="sidebar" id="sidebar">
+        <button class="close-button" onclick="closeMenu()">✖</button>
+        <ul>
+            <li><a href="Main.html">Начало</a></li>
+            <li>
+                <a href="#" onclick="toggleDropdown('recipesDropdown')">Рецепти ▼</a>
+                <ul id="recipesDropdown" class="dropdown">
+                      
+                    <li><a href="#" onclick="toggleDropdown('salatiDropdown')">Салати ▼</a>
+                        <ul id="salatiDropdown" class="dropdown">
+                            <li><a href="1SalataRoma.html">Салата рома</a></li>
+                            <li><a href="2SalataZelenaSRibaTonICeliQjca.html">Зелена салата с риба тон и цели яйца</a></li>
+                            <li><a href="3SalataZelenaSQjcaAnshoa.html">Зелена салата с яйца,аншоа и маслини</a></li>
+                            <li><a href="4SalataLeidi.html">Салата Лейди</a></li>
+                            <li><a href="5SalataSAvokadoIShunka.html">Салата от авокадо и шунка</a></li>
+                            <li><a href="6SalataBalkan.html">Салата Балкан</a></li>
+                            <li><a href="7RibnaSalataSAvokado.html">Рибна салата с авокадо</a></li>
+                            <li><a href="8SalataMioVerde.html">Салата Мио Верде</a></li>
+                            <li><a href="9SalataSPileIAvokado.html">Салата с пиле и авокадо</a></li>
+                            <li><a href="10RibnaSalataBosilek.html">Рибна салата с босилек</a></li>
+                            <li class="SeperateLine"><a href="11EkzotichnaSalataSMandarini.html">Екзотична салата с мандарини</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#" onclick="toggleDropdown('mesoDropdown')">Месо ▼</a>
+                        <ul id="mesoDropdown" class="dropdown">
+
+                            <li><a href="#" onclick="toggleDropdown('pileshkoDropdown')">Пилешко ▼</a>
+                                <ul id="pileshkoDropdown" class="dropdown">
+                                    <li class="SeperateLine"><a href="20PileshkoSBrokoli.html">Пилешко с броколи</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="#" onclick="toggleDropdown('ribaDropdown')">Риба ▼</a>
+                                <ul id="ribaDropdown" class="dropdown">
+                                    <li class="SeperateLine"><a href="25RibaSPodpravki.html">Риба с подправки</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="#" onclick="toggleDropdown('agneshkoDropdown')">Агнешко ▼</a>
+                                <ul id="agneshkoDropdown" class="dropdown">
+                                    <li class="SeperateLine"><a href="30AgneshkoSPodpravki.html">Агнешко с подправки</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="#" onclick="toggleDropdown('svinskoDropdown')">Свинско ▼</a>
+                                <ul id="svinskoDropdown" class="dropdown">
+                                    <li class="SeperateLine"><a href="40SvinskoSKartofi.html">Свинско с картофи</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="SeperateLine"><a href="#" onclick="toggleDropdown('teleshkoDropdown')">Телешко ▼</a>
+                                <ul id="teleshkoDropdown" class="dropdown">
+                                    <li class="SeperateLine"><a href="50TeleshkoVSos copy.html">Телешко в сос</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                     <li><a href="#" onclick="toggleDropdown('pastiDropdown')">Пасти ▼</a>
+                        <ul id="pastiDropdown" class="dropdown">
+                            <li><a href="60PastiSIzvara.html">Паста с извара</a></li>
+                            <li><a href="61PastaSBurata.html">Паста с бурата</a></li>
+                            <li><a href="62PastaSRikota.html">Паста с рикота</a></li>
+                            <li><a href="64PastaSPile.html">Паста с пиле</a></li>
+                            <li><a href="65PastaSTikvichki.html">Паста с тиквички</a></li>
+                            <li><a href="66PastaSBrokoli.html">Паста с броколи</a></li>
+                            <li><a href="67PastaVGruckiStil.html">Паста в гръцки стил</a></li>
+                            <li><a href="68AromatnaPastaSManatarki.html">Ароматна паста с манатарки</a></li>
+                            <li><a href="69PastaSMorskiDarove.html">Паста с морски дарове</a></li>
+                            <li class="SeperateLine"><a href="70PastaSTeleshkiKuftenca.html">Паста с телешки кюфтета</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#" onclick="toggleDropdown('orizDropdown')">Ориз ▼</a>
+                        <ul id="orizDropdown" class="dropdown">
+                            <li class="SeperateLine"><a href="#">Няма рецепти</a></li>
+                        </ul>
+                    </li>
+
+                    
+                    <li><a href="#" onclick="toggleDropdown('supiDropdown')">Супи ▼</a>
+                        <ul id="supiDropdown" class="dropdown">
+                            <li><a href="80PikantnaDomatenaSupa.html">Пикантна Доматена Супа</a></li>
+                            <li><a href="81GubenaSupa.html">Гъбена супа</a></li>
+                            <li><a href="83GrahofaKremSupaSMenta.html">Грахова крем супа с мента</a></li>
+                            <li><a href="84SupaLeshta.html">Супа Леща</a></li>
+                            <li><a href="85SupaTrezve.html">Супа Трезве</a></li>
+                            <li><a href="86SupaOtPileSLuk.html">Супа от пиле с лук</a></li>
+                            <li><a href="87VeganSUpaOtTikvichki.html">Веган супа от тиквички</a></li>
+                            <li class="SeperateLine"><a href="88SupaSPRasITikva lubo.html">Супа с праз и тиква</a></li>
+                        </ul>
+                    </li>
+
+                    
+                    <li><a href="#" onclick="toggleDropdown('burgeriDropdown')">Бургери ▼</a>
+                        <ul id="burgeriDropdown" class="dropdown">
+                            <li><a href="90BurgerSMocarela.html">Бургери с моцарела</a></li>
+                            <li><a href="91BurgerSLeshta.html">Бургери с леща</a></li>
+                            <li><a href="92BurgerSTofu.html">Бургери с тофу</a></li>
+                            <li><a href="93DomashenBurgerSChedur.html">Домашни Бургери с чедър</a></li>
+                            <li><a href="94DomashenSQjce.html">Домашни Бургери с яйца</a></li>
+                            <li><a href="95DomashenSChorizo.html">Домашни бургери с чоризо</a></li>
+                            <li><a href="96PileshkiBurgerSTikvichki.html">Пилешки бургери с тиквичка</a></li>
+                            <li><a href="97VegetarianskiBurgerSKuri.html">Вегетариански бургери с къри</a></li>
+                            <li><a href="98BurgerSDomashniHlebcheta.html">Бургери с домашни хлебчета</a></li>
+                            <li class="SeperateLine"><a href="99PikantniTeleshkiBurgeri copy.html">Пикантни телешки бургери с горчица</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#" onclick="toggleDropdown('zelenchuciDropdown')">Зеленчуци ▼</a>
+                        <ul id="zelenchuciDropdown" class="dropdown">
+                            <li class="SeperateLine"><a href="#">Няма Рецепти</a></li>
+                        </ul>
+                    </li>
+
+                    
+                    <li><a href="#" onclick="toggleDropdown('mlechniDropdown')">Млечни ▼</a>
+                        <ul id="mlechniDropdown" class="dropdown">
+                            <li class="SeperateLine"><a href="#">Няма рецепти</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#" onclick="toggleDropdown('desertiDropdown')">Десерти ▼</a>
+                        <ul id="desertiDropdown" class="dropdown">
+                            <li><a href="100Griz.html">Десерт с грис</a></li>
+                            <li><a href="101DesertSBorovinki.html">Десерт с боровинки</a></li>
+                            <li><a href="102DesertSPlodove.html">Десерт с плодове</a></li>
+                            <li><a href="103DesertSTikva.html">Десерт с тиква</a></li>
+                            <li><a href="104RazhlajdashtDesertSQgoda.html">Разхлаждащ десерт с ягоди</a></li>
+                            <li><a href="105DesertSBanani.html">Здравословен десерт с банани</a></li>
+                            <li><a href="106ShokoladovDesertSKonqk.html">Шоколадов десерт с коняк</a></li>
+                            <li><a href="107DesertSAnanas.html">Лесен десерт с ананас</a></li>
+                            <li class="SeperateLine"><a href="108DesertSKroasani.html">Десерт с кроасани</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="SeperateLine"><a href="#" onclick="toggleDropdown('drugiDropdown')">Други ▼</a>
+                        <ul id="drugiDropdown" class="dropdown">
+                            <li class="SeperateLine"><a href="#">Няма Рецепти</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </li>
+            <li><a href="#about">За нас</a></li>
+            <li><a href="#contact">Контакт</a></li>
+        </ul>
+    </div>
+    
+    <main class="main-sector">
+        <div class="back-button">
+            <button><a href="PastaRecipe.html">Назад</a></button>
+        </div>
+        <div class="menu">
+            <p>Паста с телешки кюфтенца</p>
+            <div class="recipe-img">
+                <img src="https://gotvach.bg/files/recipes/photos/p_20200502_051221_31645.jpg" alt="salata-roma">
+            </div>
+            <div class="recipe">
+                <h1>Рецепта:</h1>
+                <p>В купа сложете двата вида кайма и добавете лука, нарязан на дребно. Филийката хляб накиснете в прясно мляко. Изцедете и сложете при каймата, задно с останалите продукти за кюфтенцата. Омесете добре, докато стане на парцали.
+
+                    Оставете в хладилника за няколко часа. Извадете и оформете малки топчета, оваляйте в галета и леко сплескайте. Изпържете в мазнина от двете страни. Извадете върху кухненска хартия и заделете.
+                    
+                    Направете доматения сос, като сложите в тиган или тенджера доматеното пюре, заедно с бульона. Варете, докато сосът се сгъсти. Добавете бялото вино, маслото, солта, захарта, черния пипер и чесъна (минат през преса за чесън). Оставете соса за 10 минути на котлона и изключете.
+                    
+                    Сварете пастата според указанията на опаковката във вода, с малко сол и 1 с.л олио.
+                    
+                    Извадете, отцедете и разпределете в чинии. Отгоре сложете от соса, а върху него няколко кюфтенца.
+                    
+                    Пастата с телешки кюфтенца е готова.
+                    </p>
+            </div>
+
+            <div class="nujni-produkti">
+                <h1>Нужни продукти:</h1>
+                    <p>доматено пюре - 350 г (консерва)<br>
+                        пилешки бульон - 600 мл<br>
+                        масло - 100 г<br>
+                        захар - 20 г<br>
+                        черен пипер<br>
+                        сол<br>
+                        чесън - 3 г<br>
+                        бяло вино - 100 мл<br>
+                        за кюфтенцата<br>
+                        телешка кайма - 400 г<br>
+                        свинска кайма - 200 г<br>
+                        сол<br>
+                        черен пипер<br>
+                        хляб - 1 филийка<br>
+                        риган<br>
+                        кимион<br>
+                        галета - 3 с.л. за овалване<br>
+                        яйца - 1 бр.<br>
+                        лук - 1 бр.<br>
+                        спагети - 500 г<br>
+                    </p>
+            </div>
+
+        </div>
+
+    </main>
+    
+    <button id="scrollToTop" onclick="scrollToTop()">&#8679;</button>
+    
+    <footer>
+            <ul class="footer-nav">
+                <h2>Навигация</h2>
+                <li><a href="Main.html">Начало</a></li>
+                <li><a href="Recipes.html">Рецепти</a></li>
+                <li><a href="#about">За нас</a></li>
+                <li><a href="#contact">Контакт</a></li>
+            </ul>
+            <ul class="footer-info">
+                <h2>Свържете се с нас</h2>
+                <li>Имейл: contact@culinarybook.com</li>
+                <li>Телефон: +359 888 123 456</li>
+                <li>Адрес: Враца, България</li>
+            </ul>
+            <ul class="footer-contact">
+                <h2>Изпратете ни Имейл</h2>
+                <li><input type="text" placeholder="Име и фамилия"></li>
+                <li><input type="email" placeholder="Имейл"></li>
+                <li><textarea placeholder="Вашето съобщение"></textarea></li>
+                <li><button>Изпрати</button></li>
+            </ul>
+    </footer>
+</body>
+</html>
