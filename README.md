@@ -13,8 +13,8 @@ The goal of this website is to inspire people to cook more at home, discover new
 - Fix links for pages.
 - Improve the quality of the Project structure.
 - Use new tools such as: BootStrap 5+, More JavaScript, PHP.
-- Improve UI design and GUI.
 - Add Functionality to the website.
+- Use Artificial Intelligence for improving UI and GUI design.
 
 
 # Link: <h3><a href="https://cecouuu.github.io/Website_for_cooking-recipes/">Online Recipe Cooking Book</a></h3>
