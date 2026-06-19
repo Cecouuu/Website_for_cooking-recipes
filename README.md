@@ -17,7 +17,7 @@ The goal of this website is to inspire people to cook more at home, discover new
 - Add Functionality to the website.
 
 
-# Link: <a href="https://cecouuu.github.io/Website_for_cooking-recipes/">Online Recipe Cooking Book</a>
+# Link: <h3><a href="https://cecouuu.github.io/Website_for_cooking-recipes/">Online Recipe Cooking Book</a></h3>
 
 # Author:<br> 
 <i><b>Tsvetoslav Krumov</b></i>
